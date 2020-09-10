@@ -1,0 +1,42 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CosineSimilarAlgorithm<papercheck_e405d18a>",
+            "request": "launch",
+            "mainClass": "CosineSimilarAlgorithm",
+            "projectName": "papercheck_e405d18a"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LevenshteinTest<papercheck_e405d18a>",
+            "request": "launch",
+            "mainClass": "LevenshteinTest",
+            "projectName": "papercheck_e405d18a"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-read<papercheck_e405d18a>",
+            "request": "launch",
+            "mainClass": "read",
+            "projectName": "papercheck_e405d18a"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-write<papercheck_e405d18a>",
+            "request": "launch",
+            "mainClass": "write",
+            "projectName": "papercheck_e405d18a"
+        }
+    ]
+}
