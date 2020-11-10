@@ -1,0 +1,24 @@
+<view class="view_contain">
+  <!-- 第一部分 -->
+  <view class="view_1">
+    <view class="view_image_text">
+      <image class="image_radius" src="/photo/user.jpg" />
+      <text>熊本熊</text>
+    </view>
+  </view>
+  <!-- 第二部分 -->
+  <!--导航 开始-->
+  <view class="mine_cate">
+   <navigator 
+    wx:for="{{catelist}}"
+    wx:key="id"
+    >
+    <image mode="widthFix" src="{{item.image_src}}"></image>
+    </navigator>
+  </view>
+  <!--导航 开始-->
+  <view class="view_3">
+   
+  </view>
+</view>
+
